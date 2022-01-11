@@ -1,0 +1,13 @@
+class App extends React.Component {
+  constructor(props) {
+    super(props);
+  }
+  render() {
+    return <div/>
+  }
+};
+
+// Change code below this line
+ReactDOMServer.renderToString(<App/>)
+
+// https://forum.freecodecamp.org/t/freecodecamp-challenge-guide-render-react-on-the-server-with-rendertostring/301407
